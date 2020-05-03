@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
+import {render} from 'react-dom';
+import AppRouter from './routers/AppRouter'
+const App = () => ( 
+    <AppRouter />
+);
 
-function App() {
-  return (
-    <h1>There should be some text...</h1>
-  );
-}
-
-export default App;
+export default App

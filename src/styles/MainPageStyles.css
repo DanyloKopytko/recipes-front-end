@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.middleBackground{
+background-image: url('../Images/background.jpg');
+display: flex;
+justify-content: center;
+width: 70%;
+flex-wrap: wrap;
+
+}
+.background{
+    background-color:#fad5af;
+    display:flex; 
+    justify-content:center;
+}
